@@ -82,3 +82,12 @@ cursor: pointer;
 	cursor: pointer;
 	margin-top: 3rem;
 }
+
+@keyframes playTrack {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.2);
+	}
+}
