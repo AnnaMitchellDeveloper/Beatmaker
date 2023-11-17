@@ -29,13 +29,13 @@ cursor: pointer;
 	background: rgb(240, 156, 120);
 }
 .kick-pad.activate {
-	background: rgb(103, 103, 229);
+	background: rgb(48, 48, 232);
 }
 .snare-pad.activate {
-	background: rgb(240, 84, 216);
+	background: rgb(212, 19, 183);
 }
 .hihat-pad.activate {
-	background: rgb(235, 120, 71);
+	background: rgb(209, 97, 49);
 }
 .kick-track, .snare-track, .hihat-track {
 	display: flex;
