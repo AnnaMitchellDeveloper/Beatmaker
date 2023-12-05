@@ -17,14 +17,14 @@
     <div class="sequencer">
 		<div class="kick-track">
 			<div class="controls">
-				<h1>Kick</h1>
+				<h2>Kick</h2>
 				<button data-track="0" class="mute kick-volume">
 					<i class="fa-solid fa-volume-xmark"></i>
 				</button>
 				<select name="kick-select" id="kick-select">
-					<option value="./sounds/clap-808.wav">Classic Kick</option>
-					<option value="./sounds/clap-analog.wav">808 Kick</option>
-					<option value="./sounds/clap-crushed.wav">Heavy Kick</option>
+					<option value="./sounds/kick-classic.wav">Classic Kick</option>
+					<option value="./sounds/kick-808.wav">808 Kick</option>
+					<option value="./sounds/kick-heavy.wav">Heavy Kick</option>
 				</select>
 			</div>
 			<div class="kick">
@@ -40,14 +40,14 @@
 		</div>
 		<div class="snare-track">
 			<div class="controls">
-				<h1>Snare</h1>
+				<h2>Snare</h2>
 				<button data-track="1" class="mute snare-volume">
 					<i class="fa-solid fa-volume-xmark"></i>
 				</button>
 				<select name="snare-select" id="snare-select">
-					<option value="./sounds/snare-analog.wav">Classic Snare</option>
-					<option value="./sounds/snare-big.wav">808 Snare</option>
-					<option value="./sounds/snare-block.wav">Heavy Snare</option>
+					<option value="./sounds/snare-acoustic01.wav">Classic Snare</option>
+					<option value="./sounds/snare-808.wav">808 Snare</option>
+					<option value="./sounds/snare-vinyl02.wav">Heavy Snare</option>
 				</select>
 			</div>
 			<div class="snare">
@@ -63,14 +63,14 @@
 		</div>
 		<div class="hihat-track">
 			<div class="controls">
-				<h1>Hihat</h1>
+				<h2>Hihat</h2>
 				<button data-track="2" class="mute hihat-volume">
 					<i class="fa-solid fa-volume-xmark"></i>
 				</button>
 				<select name="hihat-select" id="hihat-select">
 					<option value="./sounds/hihat-acoustic01.wav">Classic Hihat</option>
-					<option value="./sounds/hihat-acoustic02.wav">808 Hihat</option>
-					<option value="./sounds/hihat-analog.wav">Heavy Hihat</option>
+					<option value="./sounds/hihat-808.wav">808 Hihat</option>
+					<option value="./sounds/hihat-electro.wav">Hihat Electro</option>
 				</select>
 			</div>
 			<div class="hihat">
@@ -87,9 +87,9 @@
 		<button class="play">Play</button>
 	 </div>
 	 
-	 <audio class="kick-sound" src="./sounds/clap-808.wav"></audio>
-	 <audio class="snare-sound" src="./sounds/snare-big.wav"></audio>
-	 <audio class="hihat-sound" src="./sounds/hihat-analog.wav"></audio>
+	 <audio class="kick-sound" src="./sounds/kick-classic.wav"></audio>
+	 <audio class="snare-sound" src="./sounds/snare-acoustic01.wav"></audio>
+	 <audio class="hihat-sound" src="./sounds/hihat-acoustic01.wav"></audio>
 	 
     <script src="./app.js"></script>
   </body>
