@@ -13,6 +13,7 @@ class DrumKit {
     this.isPlaying = null;
 	 this.selects = document.querySelectorAll("select");
 	 this.muteBtns = document.querySelectorAll(".mute");
+	 this.tempoSlider = document.querySelector(".tempo-slider");
   }
   activePad() {
     this.classList.toggle("active");
@@ -103,6 +104,9 @@ class DrumKit {
     }
 	}
   }
+  changeTempo(e){
+	console.log(e);
+  }
 }
 
 const drumKit = new DrumKit();
@@ -130,3 +134,7 @@ drumKit.muteBtns.forEach(btn => {
 		drumKit.mute(e);
 	});
 });
+
+drumKit.tempoSlider.addEventListener('input', function(e){
+	drumKit.changeTempo(e);
+})
